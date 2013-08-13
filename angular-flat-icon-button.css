@@ -1,0 +1,22 @@
+.flat-icon-button {
+  background: silver;
+  border: 0;
+  padding: 10px 12px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.flat-icon-button [class^="icon-"], 
+.flat-icon-button [class*=" icon-"] {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.flat-icon-button .text {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 5px;
+}

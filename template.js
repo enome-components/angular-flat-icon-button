@@ -1,0 +1,1 @@
+module.exports = '<button class=\'flat-icon-button\' ng-click=\'click()\'>\n  <i ng-show=\'icon\' class=\'icon-{{icon}}\'></i><span class=\'text\' ng-show=\'text\'>{{text}}</span>\n</button>\n';

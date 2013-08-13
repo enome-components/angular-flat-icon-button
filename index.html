@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Angular Arrangeable Array</title>
+
+    <link href='build/build.css' type='text/css' rel='stylesheet'></link>
+
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js'></script>
+    <script src='build/build.js'></script>
+
+    <script>
+
+      var app = window.angular.module('my-app', [ require('angular-flat-icon-button') ]);
+
+      app.controller('Ctrl', function ($scope) {
+        $scope.icon = 'star';
+        $scope.background = '#2FCC71';
+        $scope.textColor= 'white';
+        $scope.shadowColor = 'purple';
+        $scope.text = 'flat icon button';
+
+        $scope.click = function () {
+          console.log('test');
+          alert('clicked');
+        };
+      });
+
+    </script>
+
+    <style>
+      body {
+        padding: 10px;
+      }
+    </style>
+
+  </head>
+
+  <body ng-app='my-app' ng-controller='Ctrl'>
+    <flat-icon-button background='"#1BBC9D"' icon='"info-sign"' click='click()'></flat-icon-button>
+    <flat-icon-button background='"#2FCC71"' icon='"star"' click='click()'></flat-icon-button>
+    <flat-icon-button background='"#3598DC"' icon='"trophy"' click='click()'></flat-icon-button>
+    <br />
+    <flat-icon-button background='"#9C59B8"' icon='"screenshot"' click='click()'></flat-icon-button>
+    <flat-icon-button background='"#F1C40F"' icon='"leaf"' click='click()'></flat-icon-button>
+    <flat-icon-button background='"#E77E23"' icon='"warning-sign"' click='click()'></flat-icon-button>
+    <br />
+    <flat-icon-button background='"#E84C3D"' icon='"bar-chart"' click='click()'></flat-icon-button>
+    <flat-icon-button background='"#B9C7CB"' icon='"volume-up"' shadow-color='"#d5e4e8"' click='click()'></flat-icon-button>
+    <flat-icon-button background='"#34495E"' icon='"tag"' click='click()'></flat-icon-button>
+    <br />
+    <flat-icon-button background='"#f36dbd"' icon-color='"orange"' shadow-color='"orange"' text-color='"white"' icon='"off"' click='click()' text='"This is a really long text"'></flat-icon-button>
+    <br />
+    <flat-icon-button background='background' icon='icon' shadow-color='shadowColor' text-color='textColor' click='click()' text='"Short text"'></flat-icon-button>
+    <br />
+    <flat-icon-button background='background' shadow-color='shadowColor' text-color='textColor' click='click()' text='"Short text"'></flat-icon-button>
+    <br />
+    <flat-icon-button></flat-icon-button>
+  </body>
+
+</html>

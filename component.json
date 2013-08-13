@@ -1,0 +1,22 @@
+{
+  "name": "angular-flat-icon-button",
+  "repo": "enome-components/angular-flat-icon-button",
+  "description": "Flat styled icon button directive",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "necolas/normalize.css": "*",
+    "timoxley/font-awesome": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js",
+    "tinycolor.js"
+  ],
+  "styles": [
+    "angular-flat-icon-button.css"
+  ]
+}
