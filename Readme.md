@@ -25,6 +25,10 @@
 
 All properties are scoped with `{ prop: '=' }`.
 
+## Screenshot
+
+![screenshot](https://raw.github.com/enome-components/angular-flat-icon-button/master/screenshot.png)
+
 ## License
 
   MIT

@@ -2,7 +2,7 @@
   "name": "angular-flat-icon-button",
   "repo": "enome-components/angular-flat-icon-button",
   "description": "Flat styled icon button directive",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": [],
   "dependencies": {
     "necolas/normalize.css": "*",
